@@ -12,7 +12,12 @@ var noopTimer = {
  */
 module.exports = function(options) {
     options = options || {};
-    var print = options.print || process.stdout.write.bind(process.stdout),
+
+    defaultPrint = function(str) {
+        process.stdout.write(str);
+    };
+
+    var print = options.print || defaultPrint,
         showColors = options.showColors || process.argv.indexOf('--no-color') === -1,
         done = options.done || function() {},
         isVerbose = options.isVerbose || false,
