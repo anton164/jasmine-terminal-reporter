@@ -1,12 +1,12 @@
 {
   "name": "jasmine-terminal-reporter",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "A simple terminal reporter for Jasmine",
-  "homepage": "https://github.com/dashthis/jasmine-terminal-reporter",
-  "bugs": "https://github.com/dashthis/jasmine-terminal-reporter/issues",
+  "homepage": "https://github.com/anton164/jasmine-terminal-reporter",
+  "bugs": "https://github.com/anton164/jasmine-terminal-reporter/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashthis/jasmine-terminal-reporter"
+    "url": "https://github.com/anton164/jasmine-terminal-reporter"
   },
   "main": "index.js"
 }
